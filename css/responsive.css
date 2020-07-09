@@ -224,20 +224,26 @@ padding: 7px 15px;
 }
 /* mobile or only mobile */
  @media (max-width: 767px) {
-    .inner_page_banner {
-        padding-top: 15px;
-    }
-    .inner_page_banner h3 {
-        padding: 15px 10px;
-    }
-    .site_information {
-         float: left;
-         width: 100%;
-    }
-    .site_information ul {
-        display: none;
-    }
-    .menu_orange_section {
+    #pocetna .text_align_right_img {
+    padding-top: 10px;
+}
+#pocetna .text_align_right_img img {
+    max-width: 90vw;
+}
+.inner_page_banner {
+    padding-top: 15px;
+}
+.inner_page_banner h3 {
+    padding: 15px 10px;
+}
+.site_information {
+    float: left;
+    width: 100%;
+}
+.site_information ul {
+    display: none;
+}
+.menu_orange_section {
         width: 100%;
         padding: 0 15px;
     }
@@ -404,10 +410,10 @@ padding: 7px 15px;
      .slide_text {
          margin-top: 10%;
     }
-     .slide_text h3 {
+     .slide_text h3, .slide_text h1 {
          font-size: 25px;
     }
-     .slide_text h3 strong{
+     .slide_text h3 strong, .slide_text h1 strong{
          font-size: 37px;
     }
     .slide_text .start_exchange_bt {
